@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MIDNIGHT VAULT — a stealth heist game</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="stage">
+  <canvas id="game" width="1280" height="800"></canvas>
+  <p class="help">
+    <strong>MIDNIGHT VAULT</strong> — WASD / arrows to move, hold <kbd>Shift</kbd> to sneak,
+    click the floor to toss a coin and distract a guard.
+    Grab the loot, crack the vault in the top-right room, steal the Midnight Gem,
+    and get back to the getaway van. If the alarm meter fills while a guard or
+    camera sees you, you are caught.
+  </p>
+  <p class="help scenes">
+    Scene previews: <a href="?scene=cover">cover</a> ·
+    <a href="?scene=vault">vault</a> · <a href="?scene=alarm">alarm</a>
+  </p>
+</main>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
